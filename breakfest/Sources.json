@@ -1,0 +1,86 @@
+{
+  "source": "https://breakfest.kz/",
+  "retrieved": "2026-10-24",
+  "favorites": [
+    {
+      "imageName": "Breakfast1",
+      "title": "WKND",
+      "description": "Шакшука со страчателлой\nБриошь с карамелизированной грушей и сливочным кремом\nНапиток на выбор: американо, капучино или латте",
+      "address": "улица Жамбыла, 55/57",
+      "price": "3 500 ₸",
+      "imageURL": "https://static.tildacdn.pro/tild6539-3837-4663-b636-626534303163/DSC05355.jpg"
+    },
+    {
+      "imageName": "Breakfast2",
+      "title": "COFFEE HILLS",
+      "description": "Английский завтрак\nБерлинер\nКапучино 400 мл",
+      "address": "ул. Жунисова, 2/23 к3",
+      "price": "3 500 ₸",
+      "imageURL": "https://static.tildacdn.pro/tild3031-3961-4936-a164-353231326233/DSC04528.jpg"
+    },
+    {
+      "imageName": "Breakfast3",
+      "title": "Era Coffee House",
+      "description": "Шакшука\nБлины с джемом и сметаной\nНапиток на выбор: американо (0,2 л), капучино (0,2 л) или чай (0,4 л)",
+      "address": "пр. Серкебаева, 287, блок Б (ЖК GAGARIN PARK)",
+      "price": "3 500 ₸",
+      "imageURL": "https://static.tildacdn.pro/tild3862-6338-4434-b231-343431663361/DSC07960.jpg"
+    },
+    {
+      "imageName": "Breakfast4",
+      "title": "Medovic",
+      "description": "Тартин Бенедикт с гуакамоле, малосольным лососем, яйцом пашот и миксом зелени\nБельгийские вафли с карамелью и бананом\nНапиток на выбор: Чай черный / зеленый (300 мл) / Американо (150 мл) / Капучино (200 мл)",
+      "address": "Улица Кабанбай батыра, 89",
+      "price": "3 500 ₸",
+      "imageURL": "https://static.tildacdn.pro/tild3137-3537-4736-b835-396235356133/DSC04633.jpg"
+    },
+    {
+      "imageName": "Breakfast5",
+      "title": "Arabica Coffee House",
+      "description": "Шакшука\nСырники\nНапиток на выбор: Черный чай / Чай с молоком (300 мл) / Капучино / Латте / Американо (200 мл)",
+      "address": "Проспект Абылай хана, 113 (угол Богенбай Батыра)",
+      "price": "3 500 ₸",
+      "imageURL": "https://static.tildacdn.pro/tild6438-3531-4231-b330-303130366461/DSC05477.jpg"
+    },
+    {
+      "imageName": "Breakfast6",
+      "title": "Arabica City Cafe",
+      "description": "Шакшука\nДесерт на выбор: «Сникерс» или «Медовик»\nНапиток на выбор: латте, американо, ташкентский чай или Coca-Cola (0,33 л)",
+      "address": "Улица Наурызбай батыра, 127 блок 1",
+      "price": "3 500 ₸",
+      "imageURL": "https://static.tildacdn.pro/tild3534-3238-4638-b739-343564386435/DSC05138.jpg"
+    },
+    {
+      "imageName": "Breakfast7",
+      "title": "Театралка",
+      "description": "Омлет с овощами\nТворожный пирог\nНапиток на выбор: чай с молоком / зелёный чай / чёрный чай / американо / эспрессо / компот / морс",
+      "address": "Проспект Абылай хана, 96",
+      "price": "3 500 ₸",
+      "imageURL": "https://static.tildacdn.pro/tild6531-3832-4839-b361-316663613364/DSC08113.jpg"
+    },
+    {
+      "imageName": "Breakfast8",
+      "title": "Rosso",
+      "description": "Английский завтрак\nГранола с бананом и карамелью\nНапиток на выбор: Кофе (0.3 л) / Лимонад (0.45 л) / Чай черный или зеленый (0.4 л)",
+      "address": "проспект Гагарина, 287/2",
+      "price": "3 500 ₸",
+      "imageURL": "https://static.tildacdn.pro/tild6439-6566-4934-b464-333931323464/DSC04992.jpg"
+    },
+    {
+      "imageName": "Breakfast9",
+      "title": "Trdelnik",
+      "description": "Омлет с индейкой\nКлассический трдельник с корицей или грецкими орехами\nНапиток на выбор: американо (0,25 л), пакетированный чёрный или зелёный чай (0,3 л)",
+      "address": "Улица Желтоксан, 148",
+      "price": "3 500 ₸",
+      "imageURL": "https://static.tildacdn.pro/tild6238-6161-4434-b762-316534386134/DSC08017.jpg"
+    },
+    {
+      "imageName": "Breakfast10",
+      "title": "Mildom",
+      "description": "Завтрак с лососем и авокадо\nБархатный рулет\nНапиток на выбор: американо или капучино",
+      "address": "проспект Достык, 172, Grand Mildom",
+      "price": "3 500 ₸",
+      "imageURL": "https://static.tildacdn.pro/tild3932-3231-4033-a431-623661656461/DSC05177.jpg"
+    }
+  ]
+}
