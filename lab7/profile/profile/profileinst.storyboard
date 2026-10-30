@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="profile-vc">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="profile-scene">
+            <objects>
+                <viewController id="profile-vc" customClass="ViewController" customModule="profile" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="root">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scroll">
+                                <rect key="frame" x="0.0" y="118" width="393" height="666"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="content">
+                                        <rect key="frame" x="34" y="-3" width="393" height="506.33333333333331"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" contentMode="scaleToFill" image="person.crop.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="avatar">
+                                                <rect key="frame" x="148.66666666666666" y="24.666666666666664" width="96" height="94.666666666666686"/>
+                                                <color key="tintColor" red="0.10000000000000001" green="0.45000000000000001" blue="0.90000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="96" id="c10"/>
+                                                    <constraint firstAttribute="width" constant="96" id="c9"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <real key="value" value="48"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </imageView>
+                                            <label contentMode="scaleToFill" text="Muratov Nurali Gaidarovich" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" translatesAutoresizingMaskIntoConstraints="NO" id="name">
+                                                <rect key="frame" x="16" y="136" width="361" height="28.666666666666657"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                                <color key="highlightedColor" systemColor="groupTableViewBackgroundColor"/>
+                                            </label>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="follow">
+                                                <rect key="frame" x="16" y="276.66666666666669" width="174.66666666666666" height="48"/>
+                                                <color key="backgroundColor" red="0.0" green="0.47799999999999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="c58"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <state key="normal" title="Follow">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="message">
+                                                <rect key="frame" x="202.66666666666663" y="276.66666666666669" width="174.33333333333337" height="48"/>
+                                                <color key="backgroundColor" red="0.90000000000000002" green="0.94999999999999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="c59"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <state key="normal" title="Message">
+                                                    <color key="titleColor" red="0.0" green="0.47799999999999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <label contentMode="scaleToFill" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="0" translatesAutoresizingMaskIntoConstraints="NO" id="about">
+                                                <rect key="frame" x="16" y="352" width="361" height="133.66666666666669"/>
+                                                <string key="text">I enjoy photography, travel, and discovering new places. I share stories from my journeys and the small details that make everyday life interesting.
+
+I am always looking for new experiences, creative projects, and opportunities to connect with people around the world.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                                <color key="highlightedColor" systemColor="groupTableViewBackgroundColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="stats">
+                                                <rect key="frame" x="16" y="186" width="361" height="64"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="col0">
+                                                        <rect key="frame" x="0.0" y="0.0" width="120.33333333333333" height="64"/>
+                                                        <subviews>
+                                                            <label contentMode="scaleToFill" text="128" textAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="col0n">
+                                                                <rect key="frame" x="4" y="8" width="112.33333333333333" height="24"/>
+                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                                <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
+                                                                <color key="highlightedColor" systemColor="systemGray5Color"/>
+                                                            </label>
+                                                            <label contentMode="scaleToFill" text="Posts" textAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="col0t">
+                                                                <rect key="frame" x="4" y="36" width="112.33333333333333" height="15"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
+                                                                <color key="highlightedColor" systemColor="groupTableViewBackgroundColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstItem="col0n" firstAttribute="leading" secondItem="col0" secondAttribute="leading" constant="4" id="c20"/>
+                                                            <constraint firstAttribute="trailing" secondItem="col0n" secondAttribute="trailing" constant="4" id="c21"/>
+                                                            <constraint firstItem="col0t" firstAttribute="leading" secondItem="col0" secondAttribute="leading" constant="4" id="c22"/>
+                                                            <constraint firstAttribute="trailing" secondItem="col0t" secondAttribute="trailing" constant="4" id="c23"/>
+                                                            <constraint firstItem="col0n" firstAttribute="top" secondItem="col0" secondAttribute="top" constant="8" id="c24"/>
+                                                            <constraint firstItem="col0t" firstAttribute="top" secondItem="col0n" secondAttribute="bottom" constant="4" id="c25"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="col1">
+                                                        <rect key="frame" x="120.33333333333334" y="0.0" width="120.33333333333334" height="64"/>
+                                                        <subviews>
+                                                            <label contentMode="scaleToFill" text="8.4K" textAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="col1n">
+                                                                <rect key="frame" x="4" y="8" width="112.33333333333333" height="24"/>
+                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                                <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
+                                                            </label>
+                                                            <label contentMode="scaleToFill" text="Followers" textAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="col1t">
+                                                                <rect key="frame" x="4" y="36" width="112.33333333333333" height="15"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstItem="col1n" firstAttribute="leading" secondItem="col1" secondAttribute="leading" constant="4" id="c29"/>
+                                                            <constraint firstAttribute="trailing" secondItem="col1n" secondAttribute="trailing" constant="4" id="c30"/>
+                                                            <constraint firstItem="col1t" firstAttribute="leading" secondItem="col1" secondAttribute="leading" constant="4" id="c31"/>
+                                                            <constraint firstAttribute="trailing" secondItem="col1t" secondAttribute="trailing" constant="4" id="c32"/>
+                                                            <constraint firstItem="col1n" firstAttribute="top" secondItem="col1" secondAttribute="top" constant="8" id="c33"/>
+                                                            <constraint firstItem="col1t" firstAttribute="top" secondItem="col1n" secondAttribute="bottom" constant="4" id="c34"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="col2">
+                                                        <rect key="frame" x="240.66666666666671" y="0.0" width="120.33333333333334" height="64"/>
+                                                        <subviews>
+                                                            <label contentMode="scaleToFill" text="312" textAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="col2n">
+                                                                <rect key="frame" x="4" y="8" width="112.33333333333333" height="24"/>
+                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                                <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
+                                                            </label>
+                                                            <label contentMode="scaleToFill" text="Following" textAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="col2t">
+                                                                <rect key="frame" x="4" y="36" width="112.33333333333333" height="15"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstItem="col2n" firstAttribute="leading" secondItem="col2" secondAttribute="leading" constant="4" id="c39"/>
+                                                            <constraint firstAttribute="trailing" secondItem="col2n" secondAttribute="trailing" constant="4" id="c40"/>
+                                                            <constraint firstItem="col2t" firstAttribute="leading" secondItem="col2" secondAttribute="leading" constant="4" id="c41"/>
+                                                            <constraint firstAttribute="trailing" secondItem="col2t" secondAttribute="trailing" constant="4" id="c42"/>
+                                                            <constraint firstItem="col2n" firstAttribute="top" secondItem="col2" secondAttribute="top" constant="8" id="c43"/>
+                                                            <constraint firstItem="col2t" firstAttribute="top" secondItem="col2n" secondAttribute="bottom" constant="4" id="c44"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="divider0">
+                                                        <rect key="frame" x="120" y="12" width="1" height="40"/>
+                                                        <color key="backgroundColor" red="0.81999999999999995" green="0.83999999999999997" blue="0.87" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="1" id="c50"/>
+                                                            <constraint firstAttribute="height" constant="40" id="c51"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="divider1">
+                                                        <rect key="frame" x="240.33333333333331" y="12" width="1" height="40"/>
+                                                        <color key="backgroundColor" red="0.81999999999999995" green="0.83999999999999997" blue="0.87" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="1" id="c54"/>
+                                                            <constraint firstAttribute="height" constant="40" id="c55"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="64" id="c19"/>
+                                                    <constraint firstItem="col0" firstAttribute="top" secondItem="stats" secondAttribute="top" id="c26"/>
+                                                    <constraint firstItem="col0" firstAttribute="bottom" secondItem="stats" secondAttribute="bottom" id="c27"/>
+                                                    <constraint firstItem="col0" firstAttribute="leading" secondItem="stats" secondAttribute="leading" id="c28"/>
+                                                    <constraint firstItem="col1" firstAttribute="top" secondItem="stats" secondAttribute="top" id="c35"/>
+                                                    <constraint firstItem="col1" firstAttribute="bottom" secondItem="stats" secondAttribute="bottom" id="c36" colorLabel="IBBuiltInLabel-Gray"/>
+                                                    <constraint firstItem="col1" firstAttribute="leading" secondItem="col0" secondAttribute="trailing" id="c37"/>
+                                                    <constraint firstItem="col1" firstAttribute="width" secondItem="col0" secondAttribute="width" id="c38"/>
+                                                    <constraint firstItem="col2" firstAttribute="top" secondItem="stats" secondAttribute="top" id="c45"/>
+                                                    <constraint firstItem="col2" firstAttribute="bottom" secondItem="stats" secondAttribute="bottom" id="c46"/>
+                                                    <constraint firstItem="col2" firstAttribute="leading" secondItem="col1" secondAttribute="trailing" id="c47"/>
+                                                    <constraint firstItem="col2" firstAttribute="width" secondItem="col0" secondAttribute="width" id="c48"/>
+                                                    <constraint firstItem="col2" firstAttribute="trailing" secondItem="stats" secondAttribute="trailing" id="c49"/>
+                                                    <constraint firstItem="divider0" firstAttribute="centerY" secondItem="stats" secondAttribute="centerY" id="c52"/>
+                                                    <constraint firstItem="divider0" firstAttribute="centerX" secondItem="col0" secondAttribute="trailing" id="c53"/>
+                                                    <constraint firstItem="divider1" firstAttribute="centerY" secondItem="stats" secondAttribute="centerY" id="c56"/>
+                                                    <constraint firstItem="divider1" firstAttribute="centerX" secondItem="col1" secondAttribute="trailing" id="c57"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="avatar" firstAttribute="top" secondItem="content" secondAttribute="top" constant="24" id="c11"/>
+                                            <constraint firstItem="avatar" firstAttribute="centerX" secondItem="content" secondAttribute="centerX" id="c12"/>
+                                            <constraint firstItem="name" firstAttribute="leading" secondItem="content" secondAttribute="leading" constant="16" id="c13"/>
+                                            <constraint firstAttribute="trailing" secondItem="name" secondAttribute="trailing" constant="16" id="c14"/>
+                                            <constraint firstItem="name" firstAttribute="top" secondItem="avatar" secondAttribute="bottom" constant="16" id="c15"/>
+                                            <constraint firstItem="stats" firstAttribute="leading" secondItem="content" secondAttribute="leading" constant="16" id="c16"/>
+                                            <constraint firstAttribute="trailing" secondItem="stats" secondAttribute="trailing" constant="16" id="c17"/>
+                                            <constraint firstItem="stats" firstAttribute="top" secondItem="name" secondAttribute="bottom" constant="24" id="c18"/>
+                                            <constraint firstItem="follow" firstAttribute="leading" secondItem="content" secondAttribute="leading" constant="16" id="c60"/>
+                                            <constraint firstAttribute="trailing" secondItem="message" secondAttribute="trailing" constant="16" id="c61"/>
+                                            <constraint firstItem="message" firstAttribute="leading" secondItem="follow" secondAttribute="trailing" constant="12" id="c62"/>
+                                            <constraint firstItem="follow" firstAttribute="width" secondItem="message" secondAttribute="width" id="c63"/>
+                                            <constraint firstItem="follow" firstAttribute="top" secondItem="stats" secondAttribute="bottom" constant="24" id="c64"/>
+                                            <constraint firstItem="message" firstAttribute="top" secondItem="follow" secondAttribute="top" id="c65"/>
+                                            <constraint firstItem="about" firstAttribute="leading" secondItem="content" secondAttribute="leading" constant="16" id="c66"/>
+                                            <constraint firstAttribute="trailing" secondItem="about" secondAttribute="trailing" constant="16" id="c67"/>
+                                            <constraint firstItem="about" firstAttribute="top" secondItem="follow" secondAttribute="bottom" constant="24" id="c68"/>
+                                            <constraint firstAttribute="bottom" secondItem="about" secondAttribute="bottom" constant="24" id="c69"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="content" firstAttribute="top" secondItem="content-guide" secondAttribute="top" id="c1"/>
+                                    <constraint firstItem="content" firstAttribute="bottom" secondItem="content-guide" secondAttribute="bottom" id="c3"/>
+                                    <constraint firstItem="content" firstAttribute="leading" secondItem="content-guide" secondAttribute="leading" id="c5"/>
+                                    <constraint firstItem="content" firstAttribute="trailing" secondItem="content-guide" secondAttribute="trailing" id="c7"/>
+                                    <constraint firstItem="content" firstAttribute="width" secondItem="frame-guide" secondAttribute="width" id="c8"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="content-guide"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="frame-guide"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="safe"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="scroll" firstAttribute="top" secondItem="safe" secondAttribute="top" id="c0"/>
+                            <constraint firstItem="scroll" firstAttribute="bottom" secondItem="safe" secondAttribute="bottom" id="c2"/>
+                            <constraint firstItem="scroll" firstAttribute="leading" secondItem="safe" secondAttribute="leading" id="c4"/>
+                            <constraint firstItem="scroll" firstAttribute="trailing" secondItem="safe" secondAttribute="trailing" id="c6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="aboutlabel" destination="about" id="hoQ-Lo-Wjz"/>
+                        <outlet property="followButton" destination="follow" id="Pag-XI-nHR"/>
+                        <outlet property="messageButton" destination="message" id="yRd-IL-jfj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="first-responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="113"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="person.crop.circle.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
